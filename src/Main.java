@@ -27,7 +27,7 @@ public class Main {
         byte integerValue9 = 67;
 
 
-        System.out.println("Задача 3");
+        System.out.println("Задача 3.");
 
         byte ludmilaStudents =23;
         byte annaStudents = 27;
@@ -37,7 +37,7 @@ public class Main {
 
         System.out.println("На каждого ученика расчитано"+" "+pieceOfPaperForEachStud+" "+"листов бумаги.");
 
-        System.out.println("Задача 4");
+        System.out.println("Задача 4.");
 
         byte workingMin20 = 20;   //  количество минут
         byte workingHours24 = 24; //  в сутки
@@ -54,7 +54,7 @@ public class Main {
         System.out.println("За"+" "+ workingHours72+" часа машина произвела "+bottleQuantity72Hours+" штук бутылок.");
         System.out.println("За"+" "+ workingHours720+" часов машина произвела "+bottleQuantity720Hours+" штук бутылок.");
 
-        System.out.println("Задача 5");
+        System.out.println("Задача 5.");
 
         byte totalNumberOfCans = 120;   //общее кол-во краски
         byte whitePaintForOneClass = 2; //количество белой краски на один класс
@@ -66,7 +66,7 @@ public class Main {
 
         System.out.println("В школе, где "+ numberOfClasses+" классов, нужно "+ totalAmountOfWhitePaint+" банок белой краски и "+totalAmountOfBrownPaint+" банок коричневой краски.");
 
-        System.out.println("Задача 6");
+        System.out.println("Задача 6.");
 
         byte bananas = 5;
         short milkML = 200;  //миллилитры
@@ -87,7 +87,7 @@ public class Main {
         float weightOfASportsBreakfastKg =  weightOfASportsBreakfastGrams / 1000;
         System.out.println("Вес спортзавтрака в граммах "+weightOfASportsBreakfastGrams+" гр. в килограммах "+weightOfASportsBreakfastKg+" кг.");
 
-        System.out.println("Задача 7");
+        System.out.println("Задача 7.");
 
         short loseWeight1 = 250;  //терять в день гр.
         short loseWeight2 = 500;  //терять в день гр.
@@ -99,7 +99,7 @@ public class Main {
         System.out.println("Если скидывать по 250 гр. в день то понадобится "+numberOfDaysMax+" дней.Если скидывать по 500 гр в день то " +
                 "понадобится "+numberOfDaysMin+" дней.В среднем,чтобы скинуть 7 кг, понадобится "+averageNumberOfDays+"дней.");
 
-        System.out.println("задача 8");
+        System.out.println("задача 8.");
 
         int mashaSalary = 67760;   //  текущая зп за месяц
         int denisSalary = 83690;
