@@ -2,12 +2,18 @@ public class Main {
     public static void main(String[] args) {
 
        byte integerValue1 = 127;
+     System.out.println(integerValue1);
        short integerValue2 = 32767;
+     System.out.println(integerValue2);
        int integerValue3 = 2147483647;
+     System.out.println(integerValue3);
        long integerValue4 = 9223372036854775807l;
+     System.out.println(integerValue4);
 
        float floatingPoint1 = 3.4f;
+     System.out.println(floatingPoint1);
        double floatingPoint2 = 1.7;
+     System.out.println(floatingPoint2);
 
         char symbolVariable = 0;
         boolean logicalVariable = true;
@@ -23,7 +29,7 @@ public class Main {
 
         System.out.println("Задача 3");
 
-        byte ludmilaStudents =32;
+        byte ludmilaStudents =23;
         byte annaStudents = 27;
         byte ekaterinaStudents = 30;
         float pieceOfPaper =480;
@@ -86,32 +92,34 @@ public class Main {
         short loseWeight1 = 250;  //терять в день гр.
         short loseWeight2 = 500;  //терять в день гр.
         short needToLoseWeightKg = 7; //сколько нужно скинуть кг.
-        short needToLoseWeightGr = (short) (needToLoseWeightKg * 1000);
-        short numberOfDays1 = (short) (needToLoseWeightGr / loseWeight1); //количество дней если скидывать 250
-        short numberOfDays2 = (short) (needToLoseWeightGr / loseWeight2); //количество дней если 500
-        short averageNumberOfDays = (short) ((numberOfDays1 * 50 / 100)+(numberOfDays2 * 50 / 100));  //среднне количество дней
-        System.out.println("Если скидывать по 250 гр. в день то понадобится "+numberOfDays1+" дней.Если скидывать по 500 гр в день то " +
-                "понадобится "+numberOfDays2+" дней.В среднем понадобится "+averageNumberOfDays+"дней.");
+        double needToLoseWeightGr = (double) (needToLoseWeightKg * 1000);
+        double numberOfDaysMax = ( double) (needToLoseWeightGr / loseWeight1); //количество дней если скидывать 250 макималльрое кол-во дней
+        double numberOfDaysMin = needToLoseWeightGr / loseWeight2; //количество дней если 500 минимальнгое кол-во дней
+        double averageNumberOfDays =( double) needToLoseWeightGr / ((loseWeight1 + loseWeight2) / 2D ) ;  //среднне количество дней
+        System.out.println("Если скидывать по 250 гр. в день то понадобится "+numberOfDaysMax+" дней.Если скидывать по 500 гр в день то " +
+                "понадобится "+numberOfDaysMin+" дней.В среднем,чтобы скинуть 7 кг, понадобится "+averageNumberOfDays+"дней.");
 
         System.out.println("задача 8");
 
-        int masha = 67760;   //  текущая зп за месяц
-        int denis = 83690;
-        int kristina = 76230;
+        int mashaSalary = 67760;   //  текущая зп за месяц
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
 
 
-        int mashAnnualSalary =masha *12;  //текущая зп за год
-        int denisAnnualSalary =  denis*12;
-        int kristinaAnnualSalary= kristina*12;
+        int mashAnnualSalary =mashaSalary *12;  //текущая зп за год
+        int denisAnnualSalary =  denisSalary*12;
+        int kristinaAnnualSalary= kristinaSalary*12;
+
+        double indexPercent = 1.1;
 
 
-        float masha10Interest = masha +(masha / 100)*10; //увеличить на 10% мес.
-        float denis10Interest = denis + (denis /100)*10;
-        float kristina10Interest = kristina+(kristina /100)*10;
+        double masha10Interest = mashaSalary * indexPercent; //увеличить на 10% мес.
+        double denis10Interest = denisSalary * indexPercent;
+        double kristina10Interest = kristinaSalary * indexPercent;
 
-        float mash10InterestAnnualSalary = masha10Interest *12; //увеличить зп 10% год.
-        float denis10InterestAnnualSalary =denis10Interest *12;
-        float kristina10InterestAnnualSalary = kristina10Interest *12;
+        double mash10InterestAnnualSalary = masha10Interest *12; //увеличить зп 10% год.
+        double denis10InterestAnnualSalary =denis10Interest *12;
+        double kristina10InterestAnnualSalary = kristina10Interest *12;
 
 
 
